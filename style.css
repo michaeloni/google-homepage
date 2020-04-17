@@ -97,10 +97,13 @@ main .main-col .search-area:hover{
     color: #9AA0A6;
 }
 
-.main-col input{
+.main-col input[type="text"]{
     width: 100%;
     margin: 0 10px;
     border: none;
+}
+.main-col input[type="text"]:focus{
+    outline: none;
 }
 
 #mic-icon img{
